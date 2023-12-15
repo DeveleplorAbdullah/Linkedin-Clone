@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Linkedin Clone App which is made by Abdullah Huseynli. ">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+<!--favicon linking-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>LinkEdin | Abdullah Huseynli</title>
+</head>
+<body>
+    <!---------------navbar start-------------->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+        </div>
+
+        <div class="search-box">
+            <img src="search.png">
+            <input type="search" placeholder="Search">
+        </div>
+
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"> <span>Home</span>  </a></li>
+                <li><a href="#"><img src="network.png"> <span>My network</span>  </a></li>
+                <li><a href="#"><img src="jobs.png"> <span>Job</span>  </a></li>
+                <li><a href="#"><img src="message.png"> <span>Messaging</span>  </a></li>
+                <li><a href="#"><img src="notification.png"> <span>Notifications</span>  </a></li>
+
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profile-img" onclick="togleMenu()">
+            </div>
+        </div>
+
+        <!---------------------profile-dropdown-menu--------------------->
+        <div class="profile-menu-wrap open-menu" id="profileMenud">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png">
+                    <div>
+                        <h3>Abdullah Huseynli</h3>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>Seetings & Pricvacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+
+    </nav>
+
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="cover-pic.png" width="100%">
+                <div class="profile-conatiner-inner">
+                    <img src="user-1.png" class="profile-pic">
+                    <h1>Abdullah Huseynli</h1>
+                    <b>Web Developer at Microsoft | Former Developer at DataStack and Intern at Oracle</b>
+                    <p>Azerbaijan, Baku &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="user-2.png">
+                        <span>1 mutual connection: Oriando Origgs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="connect.png">Connect</a>
+                        <a href="#"><img src="message.png">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>The success of every websites depends on search engines optimisation and digital marketing strategy.
+                If you are br on First Page of all major search engines then you are ahead among your competitors.
+            </p>
+            <a href="#" class="see-more-link">See More..</a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Experince</h2>
+            <div class="profile-desc-row">
+                <img src="microsoft.png">
+                <div>
+                    <h3>Lead Front-End Developer</h3>
+                    <b>Microsft | Full-Time </b>
+                    <b>Sep 2023 - Present &middot; 1.5years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually by  designing <br> and  building an executable computer program.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="slack.png">
+                <div>
+                    <h3>Full Stack Developer</h3>
+                    <b>Slack &middot; Full-Time</b>
+                    <b>Jun 2021 - July 2022 &middot; 2.6years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually by  designing <br> and  building an executable computer program.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="google.png">
+                <div>
+                    <h3>Web Developer</h3>
+                    <b>Google Inc | Full-Time </b>
+                    <b>Aug 2018 - Jan 2021 &middot; 3.5years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually by  designing <br> and  building an executable computer program.</p>
+                    
+                </div>
+            </div>
+            <a href="#" class="experince-link">Show 7 More Experinces <img src="right-arrow.png"></a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Eduaction</h2>
+            <div class="profile-desc-row">
+                <img src="stanford.png">
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE, Electrical Engineering</b>
+                    <b>2015 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="north.png">
+                <div>
+                    <h3>NorthWestern University</h3>
+                    <b>Computer Science</b>
+                    <b>2016 - 2020</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="mit.png">
+                <div>
+                    <h3>Harverd University</h3>
+                    <b>Senior High School</b>
+                    <b>2010-2020</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">Communication</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Planning</a>
+            <a href="#" class="skills-btn">Coding</a>
+            <a href="#" class="skills-btn">JavaScript</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">Enterprenuorship</a>
+        </div>
+        <!-----------------profile sidebar------------------>
+        
+
+
+
+    <!--navbar end-->
+
+    
+
+
+    <!--script tag-->
+    <script>
+        let profileMenud = document.querySelector("#profileMenud")
+
+        function togleMenu(){
+            profileMenud.classList.toggle("open-menu")
+        }
+    </script>
+</body>
+</html>
